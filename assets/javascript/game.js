@@ -21,12 +21,18 @@ document.onkeyup = function(event) {
 }
 if (userGuess) === (computerGuess) {
     wins++;
+    guessesleft;
     document.querySelector("#wins").innerHTML = "Wins: " + wins;
     
 }
 else {userGuess} !== (computerGuess) {
     losses++;
+    guessesLeft--;
     document.querySelector("#losses").innerHTML = "Losses: " + losses;
+}
+
+var guessedAlphabets = function (){
+    document.querySelector('#guessedAlphabets').innerHTML = "Your Guesses so far: " + guessedAlphabets(', ');
 }
 
 guessedAlphabets.push(guessedAlphabets);
